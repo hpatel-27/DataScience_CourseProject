@@ -1,0 +1,7 @@
+VORP (actually a good way to represent value for us since it goes back into the 1970s): 
+https://www.reddit.com/r/nba/comments/cbjexu/what_is_considered_a_good_vorp_in_the_nba/ 
+
+BPM & VORP: 
+https://www.basketball-reference.com/about/bpm2.html 
+
+Tldr: VORP is better than win/shares but we can get win shares for all the players, which we can’t do for VORP. DON'T try to use PER (outdated and biased towards scoring)
