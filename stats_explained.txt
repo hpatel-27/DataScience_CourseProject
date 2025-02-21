@@ -4,4 +4,8 @@ https://www.reddit.com/r/nba/comments/cbjexu/what_is_considered_a_good_vorp_in_t
 BPM & VORP: 
 https://www.basketball-reference.com/about/bpm2.html 
 
-Tldr: VORP is better than win/shares but we can get win shares for all the players, which we can’t do for VORP. DON'T try to use PER (outdated and biased towards scoring)
+BasketballReference's Stats Glossary:
+https://www.basketball-reference.com/about/glossary.html 
+
+Tldr: VORP is better than win/shares but we can get win shares for all the players even back to the mid-1900s, which we can’t do for VORP. Also, DON'T try to use PER (outdated and biased towards scoring)
+
