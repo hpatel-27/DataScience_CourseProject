@@ -1,0 +1,118 @@
+Stats:
+- 'Year' - Year that the season occurred. Since the NBA season is split over two calendar years, the year given is the last year for that season.
+
+- 'Player' - Player name (First and Last)
+
+- 'Pos' - Player position(s)
+
+- 'Age' - Player Age on Feb 1 of the given season
+
+- 'Tm' - Team of the player
+
+- 'G' - Games the player has played in within the season
+
+- 'GS' - Games the player has been among the starting 5 within the season (Available since 1982 season)
+
+- 'MP' - Minutes played across the season (available since the 1951-52 season)
+
+- 'PER' - Player Efficiency Rating (available since the 1951-52 season)
+
+"The PER sums up all a player's positive accomplishments; subtracts the negative accomplishments, and returns a per-minute rating of a player's performance."
+
+- 'TS%' - True Shooting Percentage; Points/(2*TrueShootingAttempts); Measure of shooting efficiency that takes into account field goals, 3-point field goals, and free throws.
+
+- '3PAr'- 3-Point Attempt Rate; (3PA / FGA); Measure of what % of a player's shots come from long-distance, another good gauge of how they're utilized offensively.
+
+- 'FTr' - Free Throw Rate; (FTA / FGA); Free throw rate is the ratio of free throws attempted per field goal attempted.
+
+- 'ORB%' - Offensive Rebound Percentage; (available since the 1970-71 season in the NBA); 100 * (ORB * (Tm MP / 5)) / (MP * (Tm ORB + Opp DRB)).
+Estimate of the percentage of available offensive rebounds a player grabbed while he was on the floor
+
+- 'DRB%' - Defensive Rebound Percentage; (available since the 1970-71 season in the NBA); 100 * (DRB * (Tm MP / 5)) / (MP * (Tm DRB + Opp ORB)).
+Estimate of the percentage of available defensive rebounds a player grabbed while he was on the floor.
+
+- 'TRB%' - Total Rebound Percentage; (available since the 1970-71 season in the NBA); 100 * (TRB * (Tm MP / 5)) / (MP * (Tm TRB + Opp TRB)).
+Estimate of the percentage of available rebounds a player grabbed while he was on the floor.
+
+- 'AST%' - Assist Percentage; (available since the 1964-65 season in the NBA); the formula is 100 * AST / (((MP / (Tm MP / 5)) * Tm FG) - FG).
+Assist percentage is an estimate of the percentage of teammate field goals a player assisted while he was on the floor.
+
+- 'STL%' - Steal Percentage; (available since the 1973-74 season in the NBA); 100 * (STL * (Tm MP / 5)) / (MP * Opp Poss). 
+Estimate of the percentage of opponent possessions that end with a steal by the player while he was on the floor.
+
+- 'BLK%' - Block Percentage; (available since the 1973-74 season in the NBA); 100 * (BLK * (Tm MP / 5)) / (MP * (Opp FGA - Opp 3PA)).
+Estimate of the percentage of opponent two-point field goal attempts blocked by the player while he was on the floor.
+
+- 'TOV%' - Turnover Percentage; (available since the 1977-78 season in the NBA); 100 * TOV / (FGA + 0.44 * FTA + TOV). 
+Estimate of turnovers per 100 plays.
+
+- 'USG%' - Usage Percentage; (available since the 1977-78 season in the NBA); 100 * ((FGA + 0.44 * FTA + TOV) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV)). Estimate of the percentage of team plays used by a player while he was on the floor.
+
+- 'blanl' - Blank? Probably for making the data human-readable
+
+- 'OWS' - Offensive Win Shares; (marginal offense) / (marginal points per win);
+Estimate of the portion of a team's wins solely on a player's offensive performance. 
+
+- 'DWS' - Defensive Win Shares; (marginal defense) / (marginal points per win);
+Estimate of the portion of a team's wins solely on a player's defensive performance. 
+
+- 'WS' - Win Shares; OWS + DWS; Estimate of the number of wins contributed by the player
+
+- 'WS/48' - Win Shares Per 48 Minutes; (available since the 1951-52 season in the NBA).
+Estimate of the number of wins contributed by the player per 48 minutes (league average is approximately 0.100).
+
+- 'blank2' - Blank2? Probably for making the data human-readable
+
+- 'OBPM' - Offensive Box +/-; Estimates how much a player improves their team's offensive performance
+
+- 'DBPM' - Defensive Box +/-; Estimates how much a player improves their team's defensive performance
+
+- 'BPM' - Box +/-; (available since the 1973-74 season in the NBA);
+Estimate of the points per 100 possessions that a player contributed above a league-average player, translated to an average team.
+
+- 'VORP' - Value Over Replacement; (available since the 1973-74 season in the NBA);
+Estimate of the points per 100 TEAM possessions that a player contributed above a replacement-level (-2.0) player, translated to an average team and prorated to an 82-game season. Multiply by 2.70 to convert to wins over replacement.
+
+- 'FG' - Field Goals Made; (includes both 2-point field goals and 3-point field goals)
+
+- 'FGA' - Field Goals Attempted; (includes both 2-point field goal attempts and 3-point field goal attempts)
+
+- 'FG%' - Field Goal Percentage;  FG / FGA.
+
+- '3P' - 3-Pointers Made; (available since the 1979-80 season in the NBA)
+
+- '3PA' - 3-Pointers Attempted; (available since the 1979-80 season in the NBA)
+
+- '3P%' - 3-Point Percentage; (available since the 1979-80 season in the NBA); 3P / 3PA.
+
+- '2P' - 2-Point Field Goals Made
+
+- '2PA' - 2-Point Field Goals Attempted
+
+- '2P%' - 2-Point Field Goal Percentage; 2P / 2PA.
+
+- 'eFG%' - Effective Field Goal Percentage; (FG + 0.5 * 3P) / FGA. Adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal.
+
+- 'FT' - Free Throws Made
+
+- 'FTA' - Free Throws Attempted
+
+- 'FT%' - Free Throw Percentage; FT / FTA.
+
+- 'ORB' - Offensive Rebounds; (available since the 1973-74 season in the NBA)
+
+- 'DRB' - Defensive Rebounds; (available since the 1973-74 season in the NBA)
+
+- 'TRB' - Total Rebounds Made; (available since the 1950-51 season)
+
+- 'AST' - Assists Made
+
+- 'STL' - Steals Made; (available since the 1973-74 season in the NBA)
+
+- 'BLK' - Blocks Made; (available since the 1973-74 season in the NBA)
+
+- 'TOV' - Turnovers Made (available since the 1977-78 season in the NBA)
+
+- 'PF' - Personal Fouls By Player
+
+- 'PTS' - Points Scored
