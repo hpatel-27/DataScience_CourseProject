@@ -1,0 +1,9 @@
+Players.csv
+- 'Index': unique value incremented from 0
+- 'Player': Name of the catalogued player (first and last name)
+- 'Height': Height (cm) of the player 
+- 'Weight': Weight (kg) of the player
+- 'College': College attended by player
+- 'Born': Birth year of the player
+- 'Birth_city': City the player was born
+- 'Birth_state': State the player was born
