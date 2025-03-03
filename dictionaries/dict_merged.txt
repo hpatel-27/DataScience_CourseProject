@@ -1,0 +1,159 @@
+The merged dataset, named merged_playerStats.csv, this data sheet pertains to is available in the datasets folder found at the root of the repository.
+Also, you can use this link: https://github.com/hpatel-27/DataScience_CourseProject/blob/main/datasets/merged_playerStats.csv
+
+The NBA, National Basketball Association was formed in 1949, not including the history of the BAA and NBL.
+The NBA has a long history and it has changed and grown over the decades.
+
+In the beginning, there were 17 teams and that number increased over time to the 30 teams we have today.
+Similarly, the first NBA season had 68 games, whereas now there are 82 games. 
+
+The NBA did not always keep track of all of these statistics noted here. Over time, they progressively tracked more of the player statistics, but at the beginning
+they only recorded the basic statistics. You can find more info about the statistics below in the dictionary section of this data sheet, or go to this link for a glossary of
+statistics: https://www.basketball-reference.com/about/glossary.html
+
+Players can be traded between teams, but the trades may only occur between the end of a team's season and the NBA trade deadline.
+
+Players typically enter the NBA by showing great performances during their college basketball careers, but there are also other options,
+such as professional international leagues or the G-League. Scouts are sent out to watch players perform at games and assess their
+performances, inviting them for private workouts if they have potential. There is also the NBA Draft Combine, which began in 1987, 
+which helped to standardize testing players' skills and athletic capabilities. 
+
+The dataset includes 26 explanatory variables.
+
+Unit of observation: A player in the NBA
+
+Kept Columns (26):
+- 'Player': Player Name (First and Last Name)
+
+- 'Height': Player Height (cm)
+
+- 'Weight': Player Weight (kg)
+
+- 'College': Player's Attended College
+
+- 'Year' - Year that the season occurred. Since the NBA season is split over two calendar years, the year given is the last year for that season.
+
+- 'Pos' - Player position(s)
+
+- 'Age' - Player Age on Feb 1 of the given season
+
+- 'G' - Games the player has played in within the season
+
+- 'MP' - Minutes played across the season (available since the 1951-52 season)
+
+- 'PER' - Player Efficiency Rating (available since the 1951-52 season)
+"The PER sums up all a player's positive accomplishments; subtracts the negative accomplishments,
+and returns a per-minute rating of a player's performance."
+
+- 'TS%' - True Shooting Percentage; Points/(2*TrueShootingAttempts); Measure of shooting efficiency that takes into account field goals, 3-point field goals, and free throws.
+
+- 'USG%' - Usage Percentage; (available since the 1977-78 season in the NBA); 100 * ((FGA + 0.44 * FTA + TOV) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV)). Estimate of the percentage of team plays used by a player while he was on the floor.
+
+- 'WS' - Win Shares; OWS + DWS; Estimate of the number of wins contributed by the player
+
+- 'BPM' - Box +/-; (available since the 1973-74 season in the NBA);
+Estimate of the points per 100 possessions that a player contributed above a league-average player, translated to an average team.
+
+- 'VORP' - Value Over Replacement; (available since the 1973-74 season in the NBA);
+Estimate of the points per 100 TEAM possessions that a player contributed above a replacement-level (-2.0) player,
+translated to an average team and prorated to an 82-game season. Multiply by 2.70 to convert to wins over replacement.
+
+- 'FG%' - Field Goal Percentage;  FG / FGA.
+
+- '3P%' - 3-Point Percentage; (available since the 1979-80 season in the NBA); 3P / 3PA.
+
+- '2P%' - 2-Point Field Goal Percentage; 2P / 2PA.
+
+- 'eFG%' - Effective Field Goal Percentage; (FG + 0.5 * 3P) / FGA; 
+Adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal.
+
+- 'FT%' - Free Throw Percentage; FT / FTA.
+
+- 'TRB' - Total Rebounds Made; (available since the 1950-51 season)
+
+- 'AST' - Assists Made
+
+- 'STL' - Steals Made; (available since the 1973-74 season in the NBA)
+
+- 'BLK' - Blocks Made; (available since the 1973-74 season in the NBA)
+
+- 'TOV' - Turnovers Made (available since the 1977-78 season in the NBA)
+
+- 'PTS' - Points Scored
+
+Dropped Columns (33):
+- 'Born': Player Birth Year
+
+- 'Birth_city': Player Birth City
+
+- 'Birth_state': Player Birth State
+
+- 'Player' - Player name (First and Last)
+
+- 'Tm' - Team of the player
+
+- 'GS' - Games the player has been among the starting 5 within the season (Available since 1982 season)
+
+- '3PAr'- 3-Point Attempt Rate; (3PA / FGA); Measure of what % of a player's shots come from long-distance, another good gauge of how they're utilized offensively.
+
+- 'FTr' - Free Throw Rate; (FTA / FGA); Free throw rate is the ratio of free throws attempted per field goal attempted.
+
+- 'ORB%' - Offensive Rebound Percentage; (available since the 1970-71 season in the NBA); 100 * (ORB * (Tm MP / 5)) / (MP * (Tm ORB + Opp DRB)).
+Estimate of the percentage of available offensive rebounds a player grabbed while he was on the floor
+
+- 'DRB%' - Defensive Rebound Percentage; (available since the 1970-71 season in the NBA); 100 * (DRB * (Tm MP / 5)) / (MP * (Tm DRB + Opp ORB)).
+Estimate of the percentage of available defensive rebounds a player grabbed while he was on the floor.
+
+- 'TRB%' - Total Rebound Percentage; (available since the 1970-71 season in the NBA); 100 * (TRB * (Tm MP / 5)) / (MP * (Tm TRB + Opp TRB)).
+Estimate of the percentage of available rebounds a player grabbed while he was on the floor.
+
+- 'AST%' - Assist Percentage; (available since the 1964-65 season in the NBA); the formula is 100 * AST / (((MP / (Tm MP / 5)) * Tm FG) - FG).
+Assist percentage is an estimate of the percentage of teammate field goals a player assisted while he was on the floor.
+
+- 'STL%' - Steal Percentage; (available since the 1973-74 season in the NBA); 100 * (STL * (Tm MP / 5)) / (MP * Opp Poss). 
+Estimate of the percentage of opponent possessions that end with a steal by the player while he was on the floor.
+
+- 'BLK%' - Block Percentage; (available since the 1973-74 season in the NBA); 100 * (BLK * (Tm MP / 5)) / (MP * (Opp FGA - Opp 3PA)).
+Estimate of the percentage of opponent two-point field goal attempts blocked by the player while he was on the floor.
+
+- 'TOV%' - Turnover Percentage; (available since the 1977-78 season in the NBA); 100 * TOV / (FGA + 0.44 * FTA + TOV). 
+Estimate of turnovers per 100 plays.
+
+- 'blanl' - Blank? Probably for making the data human-readable
+
+- 'OWS' - Offensive Win Shares; (marginal offense) / (marginal points per win);
+Estimate of the portion of a team's wins solely on a player's offensive performance. 
+
+- 'DWS' - Defensive Win Shares; (marginal defense) / (marginal points per win);
+Estimate of the portion of a team's wins solely on a player's defensive performance. 
+
+- 'WS/48' - Win Shares Per 48 Minutes; (available since the 1951-52 season in the NBA).
+Estimate of the number of wins contributed by the player per 48 minutes (league average is approximately 0.100).
+
+- 'blank2' - Blank2? Probably for making the data human-readable
+
+- 'OBPM' - Offensive Box +/-; Estimates how much a player improves their team's offensive performance
+
+- 'DBPM' - Defensive Box +/-; Estimates how much a player improves their team's defensive performance
+
+- 'FG' - Field Goals Made; (includes both 2-point field goals and 3-point field goals)
+
+- 'FGA' - Field Goals Attempted; (includes both 2-point field goal attempts and 3-point field goal attempts)
+
+- '3P' - 3-Pointers Made; (available since the 1979-80 season in the NBA)
+
+- '3PA' - 3-Pointers Attempted; (available since the 1979-80 season in the NBA)
+
+- '2P' - 2-Point Field Goals Made
+
+- '2PA' - 2-Point Field Goals Attempted
+
+- 'FT' - Free Throws Made
+
+- 'FTA' - Free Throws Attempted
+
+- 'ORB' - Offensive Rebounds; (available since the 1973-74 season in the NBA)
+
+- 'DRB' - Defensive Rebounds; (available since the 1973-74 season in the NBA)
+
+- 'PF' - Personal Fouls By Player
