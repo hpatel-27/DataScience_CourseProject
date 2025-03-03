@@ -1,9 +1,29 @@
+The dataset, named Players.csv, this data sheet pertains to is available in the datasets folder found at the root of the repository.
+Also, you can use this link: https://github.com/hpatel-27/DataScience_CourseProject/blob/main/datasets/Players.csv
+
+The NBA, National Basketball Association was formed in 1949, not including the history of the BAA and NBL.
+At that time, there were 17 teams. The number of teams increased over time to the 30 teams we have today.
+
+Players typically enter the NBA by showing great performances during their college basketball careers, but there are also other options,
+such as professional international leagues or the G-League. Scouts are sent out to watch players perform at games and assess their
+performances, inviting them for private workouts if they have potential. There is also the NBA Draft Combine, which began in 1987, 
+which helped to standardize testing players' skills and athletic capabilities. 
+
+The dataset includes 1 index variable and 7 explanatory variables.
+
 Players.csv
 - 'Index': Unique integer value incremented from 0
+
 - 'Player': Player Name (First and Last Name)
+
 - 'Height': Player Height (cm)
+
 - 'Weight': Player Weight (kg)
+
 - 'College': Player's Attended College
+
 - 'Born': Player Birth Year
+
 - 'Birth_city': Player Birth City
+
 - 'Birth_state': Player Birth State
