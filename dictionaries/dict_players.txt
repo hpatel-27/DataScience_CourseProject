@@ -9,13 +9,11 @@ such as professional international leagues or the G-League. Scouts are sent out 
 performances, inviting them for private workouts if they have potential. There is also the NBA Draft Combine, which began in 1987, 
 which helped to standardize testing players' skills and athletic capabilities. 
 
-The dataset includes 1 index variable and 7 explanatory variables.
+The dataset includes 7 explanatory variables.
 
 Unit of observation: A single player in the NBA.
 
 Players.csv
-- 'Index': Unique integer value incremented from 0
-
 - 'Player': Player Name (First and Last Name)
 
 - 'Height': Player Height (cm)
