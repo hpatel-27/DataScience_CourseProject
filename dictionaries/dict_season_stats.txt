@@ -1,3 +1,22 @@
+The dataset, named Seasons_Stats.csv, this data sheet pertains to is available in the datasets folder found at the root of the repository.
+Also, you can use this link: https://github.com/hpatel-27/DataScience_CourseProject/blob/main/datasets/Seasons_Stats.csv
+
+The NBA, National Basketball Association was formed in 1949, not including the history of the BAA and NBL.
+The NBA has a long history and it has changed and grown over the decades.
+
+In the beginning, there were 17 teams and that number increased over time to the 30 teams we have today.
+Similarly, the first NBA season had 68 games, whereas now there are 82 games. 
+
+The NBA did not always keep track of all of these statistics noted here. Over time, they progressively tracked more of the player statistics, but at the beginning
+they only recorded the basic statistics. You can find more info about the statistics in the dictionary section of this datasheet, or go to this link for a glossary of
+statistics: https://www.basketball-reference.com/about/glossary.html 
+
+Players can be traded between teams, but the trades may only occur between the end of a team's season and the NBA trade deadline.
+
+The dataset includes 52 explanatory variables.
+
+Unit of observation: A player during a given season
+
 Stats:
 - 'Year' - Year that the season occurred. Since the NBA season is split over two calendar years, the year given is the last year for that season.
 
