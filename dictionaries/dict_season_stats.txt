@@ -15,7 +15,7 @@ Players can be traded between teams, but the trades may only occur between the e
 
 The dataset includes 52 explanatory variables.
 
-Unit of observation: A player during a given season
+Unit of observation: A player in the NBA during a given season
 
 Stats:
 - 'Year' - Year that the season occurred. Since the NBA season is split over two calendar years, the year given is the last year for that season.
