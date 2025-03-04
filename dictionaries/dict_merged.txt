@@ -20,7 +20,7 @@ which helped to standardize testing players' skills and athletic capabilities.
 
 The dataset includes 26 explanatory variables.
 
-Unit of observation: A player in the NBA
+Unit of observation/analysis: A player in the NBA
 
 Kept Columns (26):
 - 'Player': Player Name (First and Last Name)

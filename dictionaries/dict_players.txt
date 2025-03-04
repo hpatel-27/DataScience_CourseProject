@@ -11,7 +11,7 @@ which helped to standardize testing players' skills and athletic capabilities.
 
 The dataset includes 7 explanatory variables.
 
-Unit of observation: A single player in the NBA.
+Unit of observation/analysis: A single player in the NBA.
 
 Players.csv
 - 'Player': Player Name (First and Last Name)
