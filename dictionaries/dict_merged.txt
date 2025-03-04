@@ -45,9 +45,12 @@ Kept Columns (26):
 "The PER sums up all a player's positive accomplishments; subtracts the negative accomplishments,
 and returns a per-minute rating of a player's performance."
 
-- 'TS%' - True Shooting Percentage; Points/(2*TrueShootingAttempts); Measure of shooting efficiency that takes into account field goals, 3-point field goals, and free throws.
+- 'TS%' - True Shooting Percentage; Points/(2*TrueShootingAttempts); 
+Measure of shooting efficiency that takes into account field goals, 3-point field goals, and free throws.
 
-- 'USG%' - Usage Percentage; (available since the 1977-78 season in the NBA); 100 * ((FGA + 0.44 * FTA + TOV) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV)). Estimate of the percentage of team plays used by a player while he was on the floor.
+- 'USG%' - Usage Percentage; (available since the 1977-78 season in the NBA); 
+100 * ((FGA + 0.44 * FTA + TOV) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV)).
+Estimate of the percentage of team plays used by a player while he was on the floor.
 
 - 'WS' - Win Shares; OWS + DWS; Estimate of the number of wins contributed by the player
 
