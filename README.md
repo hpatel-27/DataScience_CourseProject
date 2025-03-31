@@ -1,5 +1,12 @@
 # DataScience_CourseProject
 
+### HW6 Main Goal: Examine what factors (if any) strongly influence advanced performance metrics (ex. BPM, VORP, WS).
+- Harsh's Subgoal: Explore relationships between USG%, TS%, eFG%, and PER on BPM, WS and VORP to see how strongly efficiency, usage, and productivity predict overall value. 
+- Minji's Subgoal: Explore if any locations consistently grow players with above-average or below-average advanced NBA metrics. 
+- Aaron's Subgoal: Explore how a player's physical attributes (height, weight, age) can estimate/predict advanced performance metrics (BPM, VORP, WS) across seasons. 
+
+
+
 Here are the two original datasets we have chosen:
 
 1. [Players.csv](https://www.kaggle.com/datasets/drgilermo/nba-players-stats?select=Players.csv)
